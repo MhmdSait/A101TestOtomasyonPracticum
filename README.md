@@ -4,7 +4,7 @@
 
 | **Course Name** | | **A101 Test Otomasyon Practicum** |
 
-|** Type **| |    First Case |
+|**Type**| |    First Case |
 
 |**Language**| |Java|
 
