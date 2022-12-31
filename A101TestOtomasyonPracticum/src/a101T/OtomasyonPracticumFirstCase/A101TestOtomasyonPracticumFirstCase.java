@@ -137,7 +137,8 @@ public class A101TestOtomasyonPracticumFirstCase {
 		driver.findElement(By.xpath("//div[@class='form-area js-new-creditcard-area']//input[@name='name']")).sendKeys("Kart üz. ismi gir.");
 		driver.findElement(By.xpath("//input[@class='js-masterpassbin-payment-card']")).sendKeys("Kendi bilgilerini gir"); Thread.sleep(1000);
 		driver.findElement(By.xpath("//div[@class='form-area js-new-creditcard-area']//select[@name='card_month']")).sendKeys("Kendi");
-		driver.findElement(By.cssSelector("div[class='form-area js-new-creditcard-area'] select[name='card_year']")).sendKeys("bilgilerini"); Thread.sleep(1000);
+		driver.findElement(By.cssSelector("div[class='form-area js-new-creditcard-area'] select[name='card_year']")).sendKeys("bilgilerini"); 
+		Thread.sleep(1000);
 		driver.findElement(By.xpath("//div[@class='form-area js-new-creditcard-area']//input[@name='card_cvv']")).sendKeys("gir");
 		
 		// 9)
